@@ -151,7 +151,27 @@
 
 // Q8. Store total marks & marks obtained by a student in 2 variables. Compute the percentage & show the result in your browser
 
-let tot = +prompt("Enter Total Marks");
-let obt = +prompt("Enter Obtained Marks");
-document.write("Total Marks is: " + tot + "<br>" + "Obtained Marks is: " + obt);
-console.log("Percentage is: " + (obt / tot) * 100);
+// let tot = +prompt("Enter Total Marks");
+// let obt = +prompt("Enter Obtained Marks");
+// document.write("Total Marks is: " + tot + "<br>" + "Obtained Marks is: " + obt);
+// console.log("Percentage is: " + (obt / tot) * 100);
+
+// --------------------------
+
+
+// Q9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a script to convert the total currency to Pakistani Rupees.Perform all calculations in a single expression. (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee and 1 Saudi Riyal = 28 Pakistani Rupee)
+
+// let usDollar = +prompt("Enter Us Dollar You Have");
+// let saudiRiyal = +prompt("Enter Us Saudi Riyals You Have");
+// const dollar = 104.8;
+// const riyal = 28;
+// console.log("Total Currency In PKR", usDollar * dollar + saudiRiyal * riyal);
+
+// ------------------------------
+
+// Q10. Write a program to initialize a variable with some number and do arithmetic in following sequence:
+// a. Add 5
+// b. Multiply by 10
+// c. Divide the result by 2
+// Perform all calculations in a single expression
+
