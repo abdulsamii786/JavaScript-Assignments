@@ -1,38 +1,98 @@
-// =============CALCULATOR=============
+// ==========Chapter 4 VARIABLE NAMES: LEGAL & ILLEGAL==========
 
-// 'prompt' se pehly '+' isliye lagaya hai takay output numbers me aye string me na aye
+// -------------------------------------
 
-// pehlay variables banaye gaye hain
+// Q1.Declare 3 variables in one statement.
 
-let num1 = +prompt("Enter First Number");
-let num2 = +prompt("Enter Second Number");
+let firstName = "Abdul",
+  lastName = "Sami",
+  age = 22;
 
-// =====addition======
+// -------------------------------------------------
 
-let sum = num1 + num2;
+// Q2.Declare 5 legal & 5 illegal variable names.
 
-document.write("The Sum Of Your Numbers is " + sum + "</br>");
+//Legal Variables
 
-// =====Subtraction======
+let variableOne = "one",
+  _variable_two = "two";
+(variable3 = "three"), (my_Alert = "four"), ($dollarSign = "five");
 
-let sub = num1 - num2;
+//Illegal Variables
 
-document.write("The Subtraction Of Your Numbers is " + sub + "</br>");
+// let 123variable (start with a number)
+// let alert (reserved keywords)
+// let this is my variable (space in it)
+// let this-is-variable (using special characters in it accept "$","_")
 
-// =====Multiplication======
+// -------------------------------------------------
 
-let multiply = num1 * num2;
+// Q3.Display this in your browser
+// a) A heading stating “Rules for naming JS variables”
+// b) Variable names can only contain ______, ______,
+// ______ and ______.
+// For example $my_1stVariable
+// c) Variables must begin with a ______, ______ or
+// _____. For example $name, _name or name
+// d) Variable names are case _________
+// e) Variable names should not be JS _________
 
-document.write("The Multiplication Of Your Numbers is " + multiply + "</br>");
+let heading = "Rules For Naming JS Variables";
+document.write("<b>" + heading + "</b>" + "</br>");
 
-// =====Division======
-
-let div = num1 / num2;
-
-document.write("The Division Of Your Numbers is " + div + "</br>");
-
-// =====Remainders======
-
-let remainder = num1 % num2;
-
-document.write("The Remainders Of Your Numbers is " + remainder + "</br>");
+document.write(
+  "</br>" +
+    "Variable Names Can Only Contain " +
+    "<b>" +
+    "letters (abc), " +
+    "</b>" +
+    "<b>" +
+    "digits (123), " +
+    "</b>" +
+    "<b>" +
+    "dollar ($), " +
+    "</b>" +
+    "<b>" +
+    "underscores ( _ ) " +
+    "</b>" +
+    "For Example: " +
+    "<b>" +
+    "$my_1stVariable" +
+    "</b>"
+);
+document.write(
+  "</br>" +
+    "Variable Must Begin With A " +
+    "<b>" +
+    "letters (abc), " +
+    "</b>" +
+    "<b>" +
+    "dollar ($), " +
+    "</b>" +
+    "<b>" +
+    "underscores ( _ ) " +
+    "</b>" +
+    "For Example: " +
+    "<b>" +
+    "$name, " +
+    "</b>" +
+    "<b>" +
+    "name, " +
+    "</b>" +
+    "<b>" +
+    "_name, " +
+    "</b>"
+);
+document.write(
+  "</br>" + "Variable Names Are Case " + "<b>" + "Sensitive " + "</b>"
+);
+document.write(
+  "</br>" +
+    "Variable Names Should Not Be JS " +
+    "<b>" +
+    "Keywords" +
+    "</b>" +
+    "</br>" +
+    "</br>" +
+    "</br>"
+);
