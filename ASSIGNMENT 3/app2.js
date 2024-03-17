@@ -95,7 +95,18 @@
 // Q5. Write a script to display multiplication table of any number in your browser.
 
 // let table = +prompt("Enter Table Number");
-// console.log(table + "x1=" + table);
+// console.log(table, "x1=", table * 1);
+// console.log(table, "x2=", table * 2);
+// console.log(table, "x3=", table * 3);
+// console.log(table, "x4=", table * 4);
+// console.log(table, "x5=", table * 5);
+// console.log(table, "x6=", table * 6);
+// console.log(table, "x7=", table * 7);
+// console.log(table, "x8=", table * 8);
+// console.log(table, "x9=", table * 9);
+// console.log(table, "x10=", table * 10);
+
+// -----------------
 
 // Q6. The Temperature Converter: It’s hot out! Let’s make a converter based on the steps here.
 // a. Store a Celsius temperature into a variable.
@@ -158,7 +169,6 @@
 
 // --------------------------
 
-
 // Q9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a script to convert the total currency to Pakistani Rupees.Perform all calculations in a single expression. (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee and 1 Saudi Riyal = 28 Pakistani Rupee)
 
 // let usDollar = +prompt("Enter Us Dollar You Have");
@@ -174,4 +184,32 @@
 // b. Multiply by 10
 // c. Divide the result by 2
 // Perform all calculations in a single expression
+
+// let num = +prompt("Enter a number");
+// let result=(num + (5 * 10) / 2);
+// console.log(result)
+
+// ------------------------
+
+// Q11. The Age Calculator: Forgot how old someone is? Calculate it!
+// a. Store the current year in a variable.
+// b. Store their birth year in a variable.
+// c. Calculate their 2 possible ages based on the stored values.
+
+// let currentYear = 2024,
+//   birthYear = +prompt("Enter Your Birth Year"),
+//   result = currentYear - birthYear;
+
+// console.log("You are either ", result, "or ", result, "Years Old");
+
+
+// ------------------
+
+// Q12. The Geometrizer: Calculate properties of a circle.
+// a. Store a radius into a variable.
+// b. Calculate the circumference based on the radius, and output “The circumference is NN”.
+// (Hint : Circumference of a circle = 2 π r , π = 3.142)
+// Calculate the area based on the radius, and output “The
+// area is NN”. (Hint : Area of a circle = π r2, π = 3.142)
+
 
