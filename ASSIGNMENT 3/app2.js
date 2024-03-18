@@ -202,7 +202,6 @@
 
 // console.log("You are either ", result, "or ", result, "Years Old");
 
-
 // ------------------
 
 // Q12. The Geometrizer: Calculate properties of a circle.
@@ -212,4 +211,32 @@
 // Calculate the area based on the radius, and output “The
 // area is NN”. (Hint : Area of a circle = π r2, π = 3.142)
 
+// let radius = 5;
+// let pie = 3.142;
+// const circumference = 2 * pie * radius;
+// console.log("The Circumference Is: ", circumference.toFixed(2));
+// const area = (pie * radius * radius);
+// console.log("The Area Is: ", area.toFixed(2));
 
+// ----------------------------------
+
+// Q13. The Lifetime Supply Calculator: Ever wonder how much a “lifetime supply” of your favorite snack is? Wonder no more.
+// a. Store your favorite snack into a variable
+// b. Store your current age into a variable.
+// c. Store a maximum age into a variable.
+// d. Store an estimated amount per day (as a number).
+// e. Calculate how many would you eat total for the rest of your life.Output the result to the screen like so: “You will need NNNN to last you until the ripe old age of NN”.
+
+// let fvrtSnack = "Papad",
+//   currentAge = 25,
+//   maxAge = 80,
+//   estAmountPerDay = 2;
+// let remainingYears = maxAge - currentAge;
+// let result = remainingYears * 365 * estAmountPerDay;
+// console.log(
+//   "You will need",
+//   result,
+//   fvrtSnack,
+//   "to last you untill the ripe old age of",
+//   maxAge
+// );
