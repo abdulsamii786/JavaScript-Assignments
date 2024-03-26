@@ -57,4 +57,39 @@
 
 // ----------------------
 
- 
+//  Q5. Run this script, & check whether alert message would be displayed or not. Record the outputs.
+
+// ----------------------
+
+// Q6. Write a program to take input the marks obtained in three subjects & total marks. Compute & show the resulting percentage on your page. Take percentage & compute grade as per following table:
+
+// let obtMarks1 = +prompt("Enter Your Obtained Marks In Maths Subject ");
+// let obtMarks2 = +prompt("Enter Your Obtained Marks In Physics Subject");
+// let obtMarks3 = +prompt("Enter Your Obtained Marks In Bio Subject");
+// let totalMarks = +prompt("Enter Total Marks");
+// let result = obtMarks1 + obtMarks2 + obtMarks3;
+// let percentage = (result / totalMarks) * 100;
+// // console.log(percentage.toFixed(1));
+// if (percentage.toFixed(1) >= 80) {
+//   swal.fire(
+//     `Excellent! Your Grade Is "A-ONE" Your Percentage is: ${percentage.toFixed(
+//       1
+//     )} `
+//   );
+// } else if (percentage.toFixed(1) >= 70) {
+//   swal.fire(
+//     `Good! Your Grade Is "A" Your Percentage is: ${percentage.toFixed(1)} `
+//   );
+// } else if (percentage.toFixed(1) >= 60) {
+//   swal.fire(
+//     `You Need To Improve! Your Grade Is "B" Your Percentage is: ${percentage.toFixed(
+//       1
+//     )} `
+//   );
+// } else if (percentage.toFixed(1) < 60) {
+//   swal.fire(
+//     `Sorry You Are Fail! Your Percentage is: ${percentage.toFixed(1)} `
+//   );
+// }
+
+// ----------------------
