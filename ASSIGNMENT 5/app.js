@@ -93,3 +93,97 @@
 // }
 
 // ----------------------
+
+// Q7. Guess game:
+// Store a secret number (ranging from 1 to 10) in a variable. Prompt user to guess the secret number.
+// a. If user guesses the same number, show “Bingo! Correct answer”.
+// b. If the guessed number +1 is the secret number, show “Close enough to the correct answer”.
+
+// let secretNum = 7;
+// let guessNum = +prompt("Guess The Secret Number (ranging from 1 to 10)");
+
+// if (guessNum == 7) {
+//   swal.fire(`Bingo! Correct Answer`);
+// } else if (guessNum == 6) {
+//   swal.fire(`Close Enough To The Correct Answer!`);
+// } else if (guessNum > 10) {
+//   swal.fire(`Please Guess The Answer from 1 to 10!`);
+// } else {
+//   swal.fire(`Incorrect Answer!`);
+// }
+
+// ----------------------
+
+// 8. Write a program to check whether the given number is divisible by 3. Show the message to the user if the number is divisible by 3.
+
+// let userNum = +prompt("Enter a Number to check is divisible by 3");
+// let result = userNum % 3;
+// if (result == 0) {
+//   swal.fire("Your Number is Divisible by 3");
+// } else {
+//   swal.fire("Your Number is Not Divisible  by 3");
+// }
+
+// ----------------------
+
+// Q9.Write a program that checks whether the given input is an even number or an odd number.
+
+// let userInput = +prompt("Enter The Number to check if it is EVEN OR ODD");
+// result =
+//   userInput % 2 == 0
+//     ? swal.fire(`Your Number "${userInput}" is EVEN!`)
+//     : swal.fire(`Your Number "${userInput}" is ODD!`);
+
+// ----------------------
+
+// Q10. Write a program that takes temperature as input and shows a message based on following criteria:
+// a. T > 40 then “It is too hot outside.”
+// b. T > 30 then “The Weather today is Normal.”
+// c. T > 20 then “Today’s Weather is cool.”
+// d. T > 10 then “OMG! Today’s weather is so Cool.”
+
+// let userInput = prompt("Enter The Temperature");
+// if (userInput >= 40) {
+//   swal.fire("It's too Hot Outside");
+// } else if (userInput >= 30) {
+//   swal.fire("The Weather Today is Normal");
+// } else if (userInput >= 20) {
+//   swal.fire("Today’s Weather is cool");
+// } else if (userInput >= 10) {
+//   swal.fire("OMG! Today’s weather is so Cool");
+// }
+
+// ----------------------
+
+// Q11. Write a program to create a calculator for +,-,*, / & % using if statements. Take the following input:
+// a. First number
+// b. Second number
+// c. Operation (+, -, *, /, %) Compute & show the calculated result to user.
+
+// let userInput1 = +prompt("Enter the First Number");
+// let userInput2 = +prompt("Enter the Second Number");
+// let operation = prompt("Enter the operation (+, -, *, /, %):");
+// let result;
+
+// if (operation === "+") {
+//   result = userInput1 + userInput2;
+//   alert(`${userInput1}+${userInput2}=${result}`);
+// } else if (operation === "-") {
+//   result = userInput1 - userInput2;
+//   alert(`${userInput1}-${userInput2}=${result}`);
+// } else if (operation === "*") {
+//   result = userInput1 * userInput2;
+//   alert(`${userInput1}*${userInput2}=${result}`);
+// } else if (operation === "%") {
+//   result = userInput1 % userInput2;
+//   alert(`${userInput1}%${userInput2}=${result}`);
+// } else if (operation === "/") {
+//   if (userInput2 !== 0) {
+//     result = userInput1 / userInput2;
+//     alert(`${userInput1}/${userInput2}=${result}`);
+//   } else {
+//     alert(`Cannot Divide by Zero`);
+//   }
+// }
+
+
