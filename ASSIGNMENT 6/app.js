@@ -32,3 +32,26 @@
 // } else if (num == 0) {
 //   swal.fire(`The number is 0`);
 // }
+
+// ---------------------------------------------------------------------
+
+// Q4. Write a program that takes a character (i.e. string of length 1) and returns true if it is a vowel, false otherwise
+
+// let userInput = prompt("Enter a Character");
+// let char;
+// if (userInput.length === 1) {
+//   char = userInput.toLowerCase();
+//   if (
+//     char === "a" ||
+//     char === "e" ||
+//     char === "i" ||
+//     char === "o" ||
+//     char === "u"
+//   ) {
+//     swal.fire("Is the character a vowel? True");
+//   } else {
+//     swal.fire("Is the character a vowel? False");
+//   }
+// } else {
+//   swal.fire("Please Enter a Single Character");
+// }
