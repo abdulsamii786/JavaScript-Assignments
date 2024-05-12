@@ -4,7 +4,15 @@
 
 // 1. Write a program that takes a character (number or string) in a variable & checks whether the given input is a number, uppercase letter or lower case letter. (Hint: ASCII codes:- A=65, Z=90, a=97, z=122).
 
-// ---------------------------------------------------------------------
+// let userInput = prompt("Enter a character");
+// const ascii = userInput.charCodeAt(0);
+// if (ascii >= 65 && ascii <= 90) {
+//   swal.fire(`${userInput} is a UpperCase Letter`);
+// } else if (ascii >= 97 && ascii <= 122) {
+//   swal.fire(`${userInput} is a LowerCase Letter`);
+// } else {
+//   swal.fire("Invalid Input");
+// }
 
 // Q2. Write a JavaScript program that accept two integers and display the larger. Also show if the two integers are equal.
 
@@ -101,15 +109,15 @@
 
 // Q7. Write a program that takes time as input from user in 24 hours clock format like: 1900 = 7pm. Implement the following case using if, else & else if statements
 
-let time = +prompt("Enter the time in 24 hours clock format like: 1900");
-if (time >= 0o000 && time < 2359) {
-  if (time >= 0 && time < 1200) {
-    swal.fire("Good Morning");
-  } else if (time > 1200 && time < 1700) {
-    swal.fire("Good Afternoon");
-  } else if (time > 1700 && time < 2100) {
-    swal.fire("Good Afternoon");
-  } else if (time > 2100 && time < 2359) swal, fire("Good Night");
-} else {
-  swal.fire("Invalid time entered");
-}
+// let time = +prompt("Enter the time in 24 hours clock format like: 1900");
+// if (time >= 0o000 && time < 2359) {
+//   if (time >= 0 && time < 1200) {
+//     swal.fire("Good Morning");
+//   } else if (time > 1200 && time < 1700) {
+//     swal.fire("Good Afternoon");
+//   } else if (time > 1700 && time < 2100) {
+//     swal.fire("Good Afternoon");
+//   } else if (time > 2100 && time < 2359) swal, fire("Good Night");
+// } else {
+//   swal.fire("Invalid time entered");
+// }
